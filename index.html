@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -283,6 +284,21 @@
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
+.album video {
+  width: 100%;
+  height: auto;
+  max-height: 250px; /* giống ảnh */
+  object-fit: contain; /* hiển thị toàn bộ video */
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.album video:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
 
     /* 💓 Hiệu ứng đập tim cho vòng tròn */
 @keyframes pulse {
@@ -735,64 +751,84 @@
     const photoContent = `
       <h2>💞 Nơi Lưu Giữ Kỉ Niệm 💞</h2>
       <div class="album">
-        <img src="./img/23.jpg">
-        <img src="./img/24.jpg">
-        <img src="./img/25.jpg">
-        <img src="./img/27.jpg">
+        <img src="./img/1.jpg">
+        <img src="./img/15.jpg">
+        <img src="./img/64.jpg">
+        <img src="./img/70.jpg">
+        <img src="./img/38.jpg">
+        <img src="./img/12.jpg">
+        <img src="./img/19.jpg">
+        <video src="img/video2.mp4" controls></video>
+        <video src="img/video9.mp4" controls></video>
+        <img src="./img/20.jpg">
+        <img src="./img/71.jpg">
+        <video src="img/video8.mp4" controls></video>
+        <img src="./img/3.jpg">
+        <img src="./img/21.jpg">
+        <img src="./img/59.jpg">
+        <img src="./img/62.jpg">
         <img src="./img/16.jpg">
         <img src="./img/18.jpg">
-        <img src="./img/12.jpg">
-        <img src="./img/6.jpg">
         <img src="./img/13.jpg">
-        <img src="./img/20.jpg">
-        <img src="./img/1.jpg">
-        <img src="./img/2.jpg">
-        <img src="./img/3.jpg">
-        <img src="./img/4.jpg">
+        <video src="img/video6.mp4" controls></video>
+        <img src="./img/60.jpg">
+        <video src="img/video10.mp4" controls></video>
+        <video src="img/video11.mp4" controls></video>
+        <video src="img/video12.mp4" controls></video>
+        <img src="./img/61.jpg">
+        <img src="./img/63.jpg">
         <img src="./img/5.jpg">
+        <img src="./img/6.jpg">
         <img src="./img/7.jpg">
         <img src="./img/8.jpg">
+        <img src="./img/22.jpg">
+        <img src="./img/67.jpg">
+        <img src="./img/69.jpg">
+        <img src="./img/65.jpg">
         <img src="./img/9.jpg">
         <img src="./img/10.jpg">
         <img src="./img/11.jpg">
         <img src="./img/14.jpg">
-        <img src="./img/17.jpg">
-        <img src="./img/19.jpg">
-        <img src="./img/21.jpg">
-        <img src="./img/22.jpg">
-        <img src="./img/26.jpg">
+        <img src="./img/23.jpg">
+        <img src="./img/24.jpg">
+        <img src="./img/25.jpg">
+        <img src="./img/27.jpg">
+        <img src="./img/66.jpg">
+        <img src="./img/68.jpg">
+        <img src="./img/36.jpg">
+        <img src="./img/45.jpg">
+        <img src="./img/55.jpg">
+        <img src="./img/30.jpg">
+        <video src="img/video1.mp4" controls></video>
+        <img src="./img/32.jpg">
+        <img src="./img/49.jpg">
+        <img src="./img/42.jpg">
+        <img src="./img/43.jpg">
+        <img src="./img/40.jpg">
         <img src="./img/58.jpg">
         <img src="./img/28.jpg">
         <img src="./img/29.jpg">
         <img src="./img/30.jpg">
         <img src="./img/31.jpg">
-        <img src="./img/32.jpg">
-        <img src="./img/33.jpg">
         <img src="./img/34.jpg">
         <img src="./img/35.jpg">
-        <img src="./img/36.jpg">
         <img src="./img/37.jpg">
-        <img src="./img/38.jpg">
         <img src="./img/39.jpg">
-        <img src="./img/40.jpg">
         <img src="./img/41.jpg">
-        <img src="./img/42.jpg">
-        <img src="./img/43.jpg">
-        <img src="./img/44.jpg">
-        <img src="./img/45.jpg">
-        <img src="./img/46.jpg">
         <img src="./img/47.jpg">
-        <img src="./img/48.jpg">
-        <img src="./img/49.jpg">
-        <img src="./img/50.jpg">
         <img src="./img/51.jpg">
         <img src="./img/52.jpg">
-        <img src="./img/53.jpg">
-        <img src="./img/54.jpg">
-        <img src="./img/55.jpg">
-        <img src="./img/56.jpg">
         <img src="./img/57.jpg">
-        <video src="images/video1.mp4" controls></video>
+        <img src="./img/44.jpg">
+        <img src="./img/46.jpg">
+        <img src="./img/48.jpg">
+        <img src="./img/50.jpg">
+        <img src="./img/53.jpg">
+        <img src="./img/56.jpg">
+        <video src="img/video3.mp4" controls></video>
+        <video src="img/video4.mp4" controls></video>
+        <video src="img/video5.mp4" controls></video>
+        <video src="img/video7.mp4" controls></video>
         
 
 
